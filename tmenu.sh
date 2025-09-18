@@ -16,6 +16,7 @@ options=(
     "List Tables"
     "Drop Table"
     "Insert into Table"
+    "Select From Table"
     "Delete From Table"
     "Update Table"
     "Exit to DB Menu"
@@ -37,6 +38,10 @@ select option in "${options[@]}"; do
             ;;
         "Insert into Table")
             source ./insrtTable.sh
+            break
+            ;;
+        "Select From Table")
+            source ./select.sh
             break
             ;;
         "Delete From Table")
