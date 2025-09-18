@@ -30,6 +30,8 @@ cp ../insrtTable.sh ./"$dbname"
 cp ../lstTables.sh ./"$dbname"
 cp ../updateTable.sh ./"$dbname"
 cp ../deleteTable.sh ./"$dbname"
+cp ../select.sh ./"$dbname"
+
 cd ../
 
 PS3="Choose an option: "
