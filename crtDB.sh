@@ -31,6 +31,8 @@ cp ../lstTables.sh ./"$dbname"
 cp ../updateTable.sh ./"$dbname"
 cp ../deleteTable.sh ./"$dbname"
 cp ../select.sh ./"$dbname"
+cp ../dropTable.sh ./"$dbname"
+
 
 cd ../
 
