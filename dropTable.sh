@@ -41,12 +41,11 @@ while true; do
     break
 done
 
-cd ..
 
 PS3="Choose an option: "
-select opt in "Get to DB Menu" "Exit Program"; do
-    if [ "$opt" = "Get to DB Menu" ]; then
-        ./start.sh
+select opt in "Get to Table Menu" "Exit Program"; do
+    if [ "$opt" = "Get to Table Menu" ]; then
+        ./tmenu.sh
         break
     elif [ "$opt" = "Exit Program" ]; then
         exit 0
